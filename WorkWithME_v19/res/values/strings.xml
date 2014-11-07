@@ -4,5 +4,7 @@
     <string name="app_name">WorkWithME_v19</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="str_welcome">Welcome to the WorkWithME!</string>
+    <string name="str_account">Already have the account? Click here:</string>
 
 </resources>
