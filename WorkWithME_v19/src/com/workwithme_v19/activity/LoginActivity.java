@@ -1,4 +1,4 @@
-package com.example.workwithme_v19;
+package com.workwithme_v19.activity;
 
 import com.workwithme.activity.R;
 import com.workwithme.activity.R.layout;
