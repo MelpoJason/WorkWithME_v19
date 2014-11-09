@@ -1,8 +1,6 @@
 package com.workwithme_v19.activity;
 
-import com.workwithme.activity.R;
-import com.workwithme.activity.R.id;
-import com.workwithme.activity.R.layout;
+import com.example.workwithme_v19.R;
 
 import android.app.Activity;
 import android.os.Bundle;
