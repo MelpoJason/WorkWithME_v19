@@ -35,7 +35,7 @@ public final class R {
         public static final int ed_password=0x7f080005;
         public static final int ed_username=0x7f080003;
         public static final int iv_userDefault=0x7f080002;
-        public static final int textView1=0x7f080008;
+        public static final int tc_Signup=0x7f080008;
         public static final int tv_account=0x7f08000a;
         public static final int tv_headline=0x7f08000b;
         public static final int tv_login=0x7f080000;
