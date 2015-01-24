@@ -1,4 +1,4 @@
-package com.workwithme.userUtils;
+package com.workwithme.userDataUtils;
 
 import android.R.string;
 
