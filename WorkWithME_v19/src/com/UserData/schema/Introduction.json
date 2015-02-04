@@ -1,0 +1,11 @@
+{
+  "name":"Introduction",
+  "fields":[
+    {"name":"Url", "type":"string", "comment":""},
+    {"name":"UserInfo", "type":"string", "comment":""},
+    {"name":"Gallery", "type":"GalleryType", "comment":""},
+    {"name":"Detail", "type":"string", "comment":""}
+  ],
+  "comment":""
+  
+}
