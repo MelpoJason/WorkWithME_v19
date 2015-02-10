@@ -1,5 +1,6 @@
 package com.workwithme_v19.activity;
 
+import android.graphics.Bitmap;
 import com.example.workwithme_v19.R;
 
 import android.app.Activity;
@@ -17,6 +18,7 @@ public class SignUpActivity extends Activity implements OnClickListener{
 	public Button btn_confirm,btn_cancel;
 	public TextView tv_username,tv_password;
 	public ImageView iv_avator;
+  public Bitmap userAvator;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub

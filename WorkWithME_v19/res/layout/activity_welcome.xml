@@ -49,12 +49,12 @@
         android:id="@+id/tv_welcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/btn_signup"
-        android:layout_below="@+id/tv_headline"
-        android:layout_marginTop="194dp"
+        android:layout_marginTop="216dp"
         android:text="@string/str_welcome"
         android:textColor="#FFFFFF"
-        android:textSize="15dp" />
+        android:textSize="15dp"
+        android:layout_below="@+id/tv_headline"
+        android:layout_alignStart="@+id/btn_signup"/>
 
     <TextView
         android:id="@+id/tv_account"

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="com.alibaba:fastjson:1.1.45.android" type="repository">
+    <properties maven-id="com.alibaba:fastjson:1.1.45.android" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/fastjson-1.1.45.android.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/fastjson-1.1.45.android-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/fastjson-1.1.45.android-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
