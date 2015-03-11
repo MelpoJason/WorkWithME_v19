@@ -1,0 +1,31 @@
+{
+  "name": "Introduction",
+  "fields": [
+    {
+      "name": "id",
+      "type": "int",
+      "comment": "each user has only one introduction ID."
+    },
+    {
+      "name": "Url",
+      "type": "string",
+      "comment": ""
+    },
+    {
+      "name": "UserInfo",
+      "type": "string",
+      "comment": ""
+    },
+    {
+      "name": "Gallery",
+      "type": "GalleryType",
+      "comment": ""
+    },
+    {
+      "name": "Detail",
+      "type": "string",
+      "comment": ""
+    }
+  ],
+  "comment": "this is the personal introduction UI."
+}
