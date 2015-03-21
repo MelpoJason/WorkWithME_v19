@@ -1,4 +1,4 @@
-package com.workwithme_v19.activity;
+package com.activity;
 
 import android.view.View;
 import android.view.Window;

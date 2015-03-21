@@ -1,4 +1,4 @@
-package com.testMisc.jsonDataFiles;
+package com.workwithme.jsonDataFiles;
 
 /**
  * Created by Chen Zhuo on 2/9/2015.

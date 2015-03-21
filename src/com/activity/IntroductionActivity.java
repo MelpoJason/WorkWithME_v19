@@ -1,4 +1,4 @@
-package com.workwithme_v19.activity;
+package com.activity;
 
 import android.app.Activity;
 import android.os.Bundle;

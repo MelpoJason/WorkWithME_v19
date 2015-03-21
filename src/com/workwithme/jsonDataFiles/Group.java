@@ -1,6 +1,4 @@
-package com.testMisc.jsonDataFiles;
-
-import com.workwithme.userDataUtils.UserBasicInfo;
+package com.workwithme.jsonDataFiles;
 
 import java.util.*;
 
