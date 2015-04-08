@@ -28,14 +28,13 @@ public class DatabaseUtils extends SQLiteOpenHelper{
   public static final String USER_GENDER = "gender";
   public static final String TYPE_INTEGER = "INTEGER";
   public static final String TYPE_TEXT = "TEXT";
-  public static final String TYPE_BOOL = "BOOL";
   
   public static final String CREATE_TABLE  = "CREATE TABLE" + TABLE_NAME +
-      "(" + _Id + TYPE_INTEGER + "," +
+      "(" + _Id + " INTEGER PRIMARY KEY AUTOINCREMENT," +
             USERNAME + TYPE_TEXT + "," +
             PASSWORD + TYPE_TEXT + "," +
             USER_EMAIL + TYPE_TEXT + "," +
-            USER_GENDER + TYPE_BOOL + "," +
+            USER_GENDER + TYPE_INTEGER + "," +
             USER_LOCATION + TYPE_TEXT +
       ")";
   
@@ -61,19 +60,21 @@ public class DatabaseUtils extends SQLiteOpenHelper{
   public long addUser(UserInfo user){
     if(user == null)
       return -1;
-   
-   
     SQLiteDatabase db = this.getWritableDatabase();
     ContentValues values = new ContentValues();
+   
     values.put(USER_EMAIL,user.getUserEmail());
-    values.put(USERNAME,user.getUserName());
+    values.put(USERNAME, user.getUserName());
     values.put(PASSWORD,user.getUserPassport());
     values.put(_Id,user.getUserId());
     values.put(USER_LOCATION,user.getUserLocation());
-
+    if (user.isUserGender() == true) {
+      values.put(USER_GENDER, 1);
+    } else {
+      values.put(USER_GENDER, 0);
+    }
     //String dirName = Environment.getExternalStorageDirectory().toString();
     //OutputStream os = null;
-
     long rowid = db.insert( TABLE_NAME, null, values);
     Log.d(LOG_TAG, "An user has been added to the database" + user.getUserName());
 
