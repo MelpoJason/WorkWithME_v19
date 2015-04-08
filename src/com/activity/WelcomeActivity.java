@@ -1,5 +1,6 @@
 package com.activity;
 
+import android.content.Intent;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
@@ -25,13 +26,15 @@ public class WelcomeActivity extends Activity {
     btn_login.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-
+        Intent jumpToLogin = new Intent(WelcomeActivity.this,LoginActivity.class);
+        startActivity(jumpToLogin);
       }
     });
     btn_signup.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-
+      Intent jumpToSignIn = new Intent(WelcomeActivity.this,LoginActivity.class);
+        startActivity(jumpToSignIn);
       }
     });
   

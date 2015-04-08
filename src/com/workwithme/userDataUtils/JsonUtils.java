@@ -10,9 +10,8 @@ import java.util.ArrayList;
  */
 public class JsonUtils {
 
-  public String string2JSONObject(String str){
-    
-    
+  public String string2json(String str){
+      
     
     return str;
   }

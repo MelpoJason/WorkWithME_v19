@@ -1,0 +1,36 @@
+{
+  "name": "UserArchive",
+  "fields": [
+    {
+      "name": "id",
+      "type": "int",
+      "comment": "each user has only one introduction ID."
+    },
+    {
+      "name": "UserName",
+      "type": "string",
+      "comment": ""
+    },
+    {
+      "name":"UserPassword",
+      "tyoe":"string",
+      "comment":""
+    },
+    {
+      "name": "Email",
+      "type": "string",
+      "comment": ""
+    },
+    {
+      "name": "Location",
+      "type": "string",
+      "comment": ""
+    },
+    {
+      "name":"Gender",
+      "type":"boolean",
+      "comment":""
+    }
+  ],
+  "comment": "this is the personal information for save the basic data."
+}

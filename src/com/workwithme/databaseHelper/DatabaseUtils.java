@@ -25,14 +25,17 @@ public class DatabaseUtils extends SQLiteOpenHelper{
   public static final String PASSWORD = "password";
   public static final String USER_LOCATION = "location";
   public static final String USER_EMAIL = "email";
+  public static final String USER_GENDER = "gender";
   public static final String TYPE_INTEGER = "INTEGER";
   public static final String TYPE_TEXT = "TEXT";
+  public static final String TYPE_BOOL = "BOOL";
   
   public static final String CREATE_TABLE  = "CREATE TABLE" + TABLE_NAME +
       "(" + _Id + TYPE_INTEGER + "," +
             USERNAME + TYPE_TEXT + "," +
             PASSWORD + TYPE_TEXT + "," +
             USER_EMAIL + TYPE_TEXT + "," +
+            USER_GENDER + TYPE_BOOL + "," +
             USER_LOCATION + TYPE_TEXT +
       ")";
   

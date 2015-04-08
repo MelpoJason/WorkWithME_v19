@@ -1,5 +1,6 @@
 package com.activity;
 
+import android.app.Fragment;
 import android.graphics.Bitmap;
 import com.example.workwithme_v19.R;
 
@@ -38,15 +39,9 @@ public class SignUpActivity extends Activity implements OnClickListener {
   @Override
   public void onClick(View v) {
     // TODO Auto-generated method stub
-    if (btn_confirm.getId() == R.id.btn_confirm) {
-
-
-    }
-
-    if (btn_cancel.getId() == R.id.btn_cancel) {
-
+    switch (v.getId()) {
+      //case v.getId() ;
     }
   }
-
 
 }
